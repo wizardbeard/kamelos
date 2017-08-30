@@ -14,3 +14,9 @@ Plugins: META (0.4), DevFiles (0.4)
 Executable "kamelos"
   Path: src
   MainIs: kamelos.ml
+
+SourceRepository master
+  Type: git
+  Location: https://wizardbeard@github.com/wizardbeard/kamelos.git
+  Branch: master
+  Browser: https://github.com/wizardbeard/kamelos
