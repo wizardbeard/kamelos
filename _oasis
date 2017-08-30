@@ -1,0 +1,16 @@
+Name: Kamelos
+Version: 0.1
+Synopsis: A naive blockchain written in OCaml as a learning exercise.
+Authors: Ray Long <ramonjlongiii@gmail.com>
+License: MIT
+
+Description: Based on naivechain, this is a simple and naive blockchain implementation as a OCaml learning exercise.
+Homepage: http://www.officialraylong.com
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+Executable "kamelos"
+  Path: src
+  MainIs: kamelos.ml
